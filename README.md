@@ -1,3 +1,16 @@
-# Pi Day Coding Competition 2021
+# piday
+PiDay Hackaton
 
-Please find rules of the competition in [RULES.md](https://github.com/Pi-Campus/team_2/blob/main/RULES.md) and APIs quick tutorial and examples in [API.md](https://github.com/Pi-Campus/team_2/blob/main/API.md).
+## Client
+
+http://35.152.84.157:3000/
+
+## Request
+
+- **TYPE**: POST
+- **ENDPOINT**: "http://<HOST_ADDRESS>:5000/query"
+- **PARAMETERS**:
+  - query (string)
+  - lang (string) [en, it]
+- **HEADERS**:
+  - Content-Type:application/json   
